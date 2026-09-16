@@ -28,7 +28,7 @@ const BIRTHDAY_CONFIG = {
     eyebrow: "For Kannadi 👀",
     title: "Before you accuse me of forgetting your birthday…",
     subtitle: "I did NOT.",
-    button: "Prove it →"
+    button: <button ...>Prove it →</button>
   },
 
   // REVEAL
