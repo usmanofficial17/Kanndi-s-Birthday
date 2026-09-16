@@ -61,27 +61,10 @@ function render() {
 }
 
 function bindReveal() {
-  const revealBtn = document.getElementById("revealBtn");
-
-  if (revealBtn) {
-    revealBtn.addEventListener("click", function (e) {
-      e.preventDefault();
-      document.getElementById("reveal").scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-      });
-      burst();
-    });
-  }
-
-  $("#revealContinue").onclick = () => {
-    $("#story").scrollIntoView({ behavior: "smooth" });
+  $("#revealBtn").onclick = () => {
+    $("#reveal").scrollIntoView({ behavior: "smooth" });
+    burst();
   };
-
-  $("#replay").onclick = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-}
   $("#revealContinue").onclick = () => {
     $("#story").scrollIntoView({ behavior: "smooth" });
   };
