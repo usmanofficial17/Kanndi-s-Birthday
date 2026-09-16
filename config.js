@@ -33,11 +33,11 @@ const BIRTHDAY_CONFIG = {
 
   // REVEAL
   reveal: {
-    title: "Okay fine. You got me. 💀",
+    title: "yeah i didn't forget",
     paragraphs: [
-      "I acted like I forgot. I know. Terrible acting, right? 😭",
-      "But after 3+ years of knowing you, there was absolutely no chance I forgot the birthday of someone who has somehow ended up in so many chapters of my life.",
-      "So yes… the whole “I forgot” thing was a setup. You walked directly into it. Congratulations. 😂"
+      "After 3+ years of knowing you, there was absolutely no chance I forgot the birthday of someone who has somehow ended up in so many chapters of my life.",
+      "So yes… the whole “I forgot” thing was a setup. You walked directly into it. Congratulations. 😂",
+      "Since we cant meet i made a lil gift as in form of a website"
     ],
     button: "Continue →"
   },
