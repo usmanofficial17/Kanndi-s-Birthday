@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#06111f">
+  <meta name="description" content="A tiny birthday universe made for Kannadi.">
+  <title>For Kannadi 👀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+
+  <button class="music" id="musicBtn" aria-label="Open Hayati">🎵 Play Hayati</button>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="orbit" aria-hidden="true"></div>
+      <div class="container">
+        <div class="eyebrow" id="openingEyebrow"></div>
+        <h1 id="openingTitle"></h1>
+        <h2 class="accent" id="openingSubtitle"></h2>
+        <button class="cta" id="revealBtn"></button>
+      </div>
+      <div class="scrollhint">there is something suspiciously blue down here ↓</div>
+    </section>
+
+    <section id="reveal">
+      <div class="container">
+        <div class="reveal-card fade">
+          <div class="heart">👀</div>
+          <h2 id="revealTitle"></h2>
+          <div id="revealText"></div>
+          <button class="cta" id="revealContinue"></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="story">
+      <div class="container">
+        <div class="fade">
+          <div class="eyebrow">THE ARCHIVE</div>
+          <h2>3+ years of <span class="accent">chaos.</span></h2>
+          <p class="lead">A tiny timeline of the moments that somehow survived the passage of time. Replace the placeholders with your actual memories.</p>
+        </div>
+        <div class="timeline" id="timeline"></div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <div class="fade">
+          <div class="eyebrow">PHOTO EVIDENCE</div>
+          <h2>Proof we were <span class="accent">actually there.</span> 📸</h2>
+          <p class="lead">Tap a real photo to make it bigger. The placeholders are ready for your own pictures.</p>
+        </div>
+        <div class="gallery" id="gallery"></div>
+      </div>
+    </section>
+
+    <section id="letter">
+      <div class="container">
+        <div class="letter fade">
+          <div class="heart">❤️</div>
+          <div class="eyebrow">NO JOKES FOR A SECOND</div>
+          <h2 id="emotionalTitle"></h2>
+          <div id="letter"></div>
+          <div class="signature">— from the person who definitely did NOT forget 👀</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final" id="final">
+      <div class="container fade">
+        <div class="eyebrow">THE END… FOR NOW</div>
+        <h2 id="finalTitle" class="big-blue"></h2>
+        <p class="lead" id="finalSubtitle"></p>
+        <h3 id="finalJoke"></h3>
+        <br>
+        <button class="cta" id="replay"></button>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <div class="modal-box">
+      <button class="close" id="closeModal" aria-label="Close">×</button>
+      <img id="modalImage" alt="">
+    </div>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
